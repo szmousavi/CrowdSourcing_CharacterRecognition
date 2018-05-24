@@ -1,0 +1,52 @@
+﻿body 
+{
+	font:12px Tahoma;
+	direction:rtl;
+}
+input.txtTitle
+{
+	font:12px Tahoma;
+	width:400px;
+}
+.typeDrop
+{
+	font:12px Tahoma;
+	width:400px;
+}
+.btnAddArticle
+{
+	font:12px Tahoma;
+}
+.txtDescription
+{
+	width:600px;
+	font:12px Tahoma;
+	height:80px;
+}
+.editorArea
+{
+	width:600px;
+	height:500px;
+}
+
+
+/* Search UserControl*/
+
+div.SearchForm
+{
+	direction: rtl;
+	background-color: #3F3E38;
+	padding: 10px;
+}
+.SearchTable
+{
+	-moz-border-radius:5px;
+	background-color:White;
+}
+.txtSearch
+{
+	font:12px Tahoma;
+	border-style:none;
+	border-color:White;
+	width:150px;
+}

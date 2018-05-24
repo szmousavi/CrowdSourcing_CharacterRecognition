@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminMasterPage.master.cs" Inherits="MasterPage" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="Styles/Main/Main.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/UserControls.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery-1.4.2.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+//        $("#toogleBox").click(function () {
+//            $("#searchBox").slideToggle("7000");
+//        });
+    });
+    </script>
+    <style type="text/css">
+        input.hint 
+        {
+            color: Gray;
+            height:20px;
+        }
+        input.cssclass
+        {
+        	height:20px;
+        	padding-right:5px;
+        }
+        input.btnSearch
+        {
+            font:11px Tahoma;
+        }
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <div id="wrapper">
+        <div id="header">
+        
+            نام کاربری :
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <br />
+            سطح دسترسی :
+            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>            
+            <br />
+            امتیاز   :
+            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+        
+        </div>
+        <div id="content">
+            <div id="left">
+                <asp:ContentPlaceHolder id="bodyContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="right">
+           
+            <hr />
+                <br />
+            <a href="User.aspx" title="">لیست کاربران</a><br />
+                <br />
+                 <br />
+            <a href="AddWord.aspx" title="">افزودن کلمه جدید  </a><br />
+                <br />                
+                <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="خروج" />
+&nbsp;<hr />
+            
+                
+            
+            </div>
+        </div>
+        <div id="footer">
+        CopyRight
+        </div>
+    </div>
+    </form>
+</body>
+</html>

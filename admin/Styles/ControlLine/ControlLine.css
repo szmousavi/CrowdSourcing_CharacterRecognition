@@ -1,0 +1,29 @@
+﻿body 
+{
+	margin:0;padding:0;
+}
+#header
+{
+	width: 990px;
+	margin: 0 auto;
+	height: 160px;
+	background-color: #00FF99;
+}
+#content
+{
+	width:990px;
+	margin:0 auto;
+	margin-top:10px;
+}
+#left
+{
+	float: left;
+	width: 730px;
+	background-color: #99CCFF;
+}
+#right
+{
+	float: right;
+	width: 250px;
+	background-color: #FF66CC;
+}

@@ -1,0 +1,48 @@
+﻿body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #212212;
+	font:12px Tahoma;
+	direction:rtl;
+}
+#wrapper
+{
+	width:990px;
+	margin:0 auto;
+}
+#header
+{
+	width:990px;
+	height:160px;
+	background-color:White;
+}
+#content
+{
+	width:990px;
+	margin-top:10px;
+}
+#left
+{
+	float: left;
+	width: 740px;
+	background-color: #CCFFFF;
+    margin-bottom:10px;
+}
+#right
+{
+	float: right;
+	width: 240px;
+	background-color: #99FFCC;
+}
+#footer
+{
+	clear: both;
+	width: 990px;
+	height: 30px;
+	background-color: #FE573F;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 30px;
+	-moz-border-radius: 5px;
+}
